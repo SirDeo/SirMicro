@@ -839,7 +839,7 @@ AREF
 Wire Wire Line
 	3500 3050 3550 3050
 Connection ~ 3550 3050
-Text GLabel 2550 1450 0    50   Input ~ 0
+Text GLabel 2400 1450 0    50   Input ~ 0
 VCC
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP1
@@ -1166,10 +1166,10 @@ F 3 "~" H 7250 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C11
 U 1 1 5D5B301A
 P 7600 1850
-F 0 "C?" H 7482 1896 50  0000 R CNN
+F 0 "C11" H 7482 1896 50  0000 R CNN
 F 1 "22uF" H 7482 1805 50  0000 R CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 7638 1700 50  0001 C CNN
 F 3 "~" H 7600 1850 50  0001 C CNN
@@ -1196,4 +1196,7 @@ Wire Wire Line
 Connection ~ 9900 2150
 Connection ~ 8500 1550
 Connection ~ 8500 2150
+Wire Wire Line
+	2400 1450 2550 1450
+Connection ~ 2550 1450
 $EndSCHEMATC
