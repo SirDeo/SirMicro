@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "SirMicro"
+Date "2019-07-26"
+Rev "1"
+Comp "SirBoard"
+Comment1 "www.SirBoard.com"
+Comment2 "ATMega32U4 Based Dev Board"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1125,7 +1125,7 @@ U 1 1 5D5B301A
 P 7600 1850
 F 0 "C11" H 7482 1896 50  0000 R CNN
 F 1 "22uF" H 7482 1805 50  0000 R CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 7638 1700 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T" H 7638 1700 50  0001 C CNN
 F 3 "~" H 7600 1850 50  0001 C CNN
 	1    7600 1850
 	-1   0    0    -1  
